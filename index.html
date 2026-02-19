@@ -1,27 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon" />
     <title>Weather App</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="box">
-        <label for="cityName">Enter Your City:</label><br>
-        <div class="search">
-            <input type="text" id="cityName">
-            <a onclick="fetchWeather()"><i class="bi bi-search"></i></a>
-        </div>
-        <div id="result">
-        </div>
+      <label for="cityName">Enter Your City:</label><br />
+      <div class="search">
+        <input type="text" id="cityName" />
+        <a onclick="fetchWeather()"><i class="bi bi-search"></i></a>
+      </div>
+      <div id="result"></div>
     </div>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>

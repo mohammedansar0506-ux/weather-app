@@ -11,64 +11,70 @@ html, body {
 body {
     display: flex;
     justify-content: center;
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./assets/images/bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: #ceeafc;
 }
 label {
     font-weight: 700;
-    color: white;
+    color: #1a3d53;
     display: block;
     text-align: center;
     margin-top: 25px;
 }
 #cityName {
-    width: 90%;
-    max-width: 400px;
-    min-width: 300px;
-    padding: 10px 18px;
-    border-radius: 25px;
+    width: 100%;
+    padding: 10px 60px 10px 18px;
+    border-radius: 15px;
     border: none;
-    background-color: white;
+    background-color: #eaf5fc;
     outline : none;
     font-size: 15px;
+
 }
 .search {
     position: relative;
+    width: 95%;
+    max-width: 400px;
+    min-width: 300px;
+    background: linear-gradient(33deg,rgba(21, 80, 122, 1) 15%, rgba(9, 9, 121, 1) 100%);
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.3);
 }
 .box {
     width: 90%;
     max-width: 400px;
     min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 a {
     position: absolute;
-    right: 50px;
-    top: 5px;
-    font-size: 22px;
+    right: 20px;
+    top: 20px;
+    font-size: 15px;
     cursor: pointer;
+    background: linear-gradient(33deg,rgba(21, 80, 122, 1) 15%, rgba(9, 9, 121, 1) 100%);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
 }
 #result {
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-top: 25px;
-    color: white;
+    color: #1a3d53;
     font-weight: 700;
-    overflow-wrap: normal;
     text-align: center;
 }
 .weather-result {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    color: black;
+    background: linear-gradient(33deg,rgba(21, 80, 122, 1) 15%, rgba(9, 9, 121, 1) 100%);
     width: 200px;
     padding: 25px;
-    border-radius: 20px;   
+    border-radius: 20px;
+    color: white;   
 }
 .weather-result h1 {
     font-family: "Bebas Neue", sans-serif;
